@@ -21,6 +21,7 @@ public class Test {
 		
 		Boutique boutique = new Boutique("Micromania"," 3 rue de Verdun");
 		Client c1 = new Client("Doe","John");
+		Client c2 = new Client("Doe","Jane");
 		
 	}
 
