@@ -1,12 +1,12 @@
 package nintendo.model;
 
-public class Console {
+public abstract class Console {
 
 	private String nom;
 	private double prix;
 	private String date_sortie;
 
-	public Console(String nom) {
+	public Console(String nom, double prix, String date_sortie) {
 		this.nom = nom;
 		this.prix = prix;
 		this.date_sortie = date_sortie;
