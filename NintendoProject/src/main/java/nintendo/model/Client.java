@@ -30,6 +30,14 @@ public class Client {
 	public String toString() {
 		return "Client [nom=" + nom + ", prenom=" + prenom + "]";
 	}
+
+	public List<Achat> getAchats() {
+		return achats;
+	}
+
+	public void setAchats(List<Achat> achats) {
+		this.achats = achats;
+	}
 	
 	
 }
