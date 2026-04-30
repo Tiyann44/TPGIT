@@ -6,6 +6,10 @@ public class Client {
 	public String getNom() {
 		return nom;
 	}
+	public Client(String nom, String prenom) {
+		this.nom = nom;
+		this.prenom = prenom;
+	}
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
